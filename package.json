@@ -1,11 +1,30 @@
 {
-  "name": "hsl-to-hex",
+  "name": "@yekki/hsl-to-hex",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert HSL colors to RGB colors in hex format.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && tap --cov test",
+    "lint": "standard"
   },
   "author": "Gary Niu",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "hsl-to-rgb-for-reals": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tap": "^10.7.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yekki/hsl-to-hex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yekki/hsl-to-hex/issues"
+  },
+  "homepage": "https://github.com/yekki/hsl-to-hex#readme"
 }
